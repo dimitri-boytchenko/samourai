@@ -1,0 +1,47 @@
+Работа с ветками - GIT урок 4
+- главная ветка: 
+     master
+- создадим отдельную ветку:
+     git branch forum 
+- посмотреть на какой сейчас ветке:
+     git status
+- посмотреть і показать вce существующтє ветки:
+    gіt branch -a
+- перейти на необхідну гілку :
+   git checkout назва_гілки
+   git checkout forum
+- будучи на цій гілці створюємо нову папку і нові файли, добавлємо в очікування в локальний репозиторий і комітимо в локал :
+    git add .
+    git status 
+    git commit -m "add forum folder"
+-  щоб перейти на основну гілку :
+    git checkout master 
+- створюємо нову гілку іншим методом
+ми її створюємо і переходим на неї:
+   git checkout -b admin_гілка
+- on cree novel document avec des fails
+- aller vers un autre branche:
+   git checkout admin
+- pour reunir tous les branches dabord il faut aller sur la branche principal :
+   git checkout master
+-> ensuit en join (on cole) un autre branche (par exemple "forum ") avec la branche principal :
+   git merge forum 
+
+- git branch -a 
+
+
+
+
+
+
+
+
+
+    
+   
+
+
+
+        
+ 
+

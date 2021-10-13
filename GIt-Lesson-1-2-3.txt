@@ -1,0 +1,110 @@
+ 
+          Git Lesson - 1
+
+- version de Git actuel:
+     git --version
+
+- instaure signification global(глобальное значение):
+ git config --global user.name boytchenko_dmytro
+
+- instaure signification local(локальное значение):
+ git config (без"--global") user.name boytchenko_dmytro
+
+- appeler la commande - ordre precedent :
+ flech a haut (->)
+
+- instaure le mail global (ou local sans --global):
+  git config --global  user.email dboytchenko1@gmai.com
+
+- verifier le nom ou mail installe:
+  git config user.name 
+  git config user.email
+
+- netoyer l'ecran de terminal  :
+  clear 
+
+- репозиторий локальний и удальонный:
+  хранилище локальное и удальонное
+ 
+     Git Lesson 2
+  
+- avant commencer travailler avec Git :
+  il faut lui initialiser dans le projet 
+- pour initialiser :
+  dans le terminal il faut trouver le projet avec commande:
+  cd projer_ou_dossier 
+  ou pour remonter a un dossier : .. 
+  - en suit dans le dossier on veux travailler on  initilise le     le Git avec (ensuit ca veux dire que votre projet et     connecter avec GIT ) :
+        git init 
+- en suit on rajout les dossier dans le repositorie local :
+     - ajouter tous les dossier et fails de projet dans l'attend de charge dans le Git-repo:
+           git add .
+     - ajouter saulement :
+           git add css/
+           git add css/style.css
+           git add index.html
+           git add *.css  ou  git add *.html
+           git add css/*.html
+           ajouter tous les files soft css :
+           - add !css/style.css
+           - ou sans index.html :
+             - add !css/index.html
+
+- voir ce que on a dans le Git - reposetori :
+    git status 
+- pour enlever le element de status d'attend :
+   git rm --cached "nome de file" 
+
+- saulement apres commande "git commit -'commentaire' :
+  les elements quelles sont ete ajouter quelles sont en attende   seront ajouter dans le Git-reposetorie local :
+  git commit -m "commentaire"
+
+- montre tous les changement dans le projet :
+  git log --oneline 
+
+- ми можемо створити файл в проекті в який можна закидувати 
+  файли з розширеннями які ми хочемо притримати від пересиланн   в Git-repositorie ou GitHub (удальонний репозіторій-  храніліще):
+  - для цього прямо в проекті створюємо файл без назви і просто     з таким розширенням : 
+      .gitignore -> і в нього поміщаємо що хочемо притримати       від коменту : index.html
+                    *.txt 
+                    js/*.js
+                    /js/
+- voir le projet dans un moment precis :
+    git checkout id_commentaire-VERSION // on trouve avec git     log   --oneline
+
+- Rrevenir au branche principale:
+    git checkout master
+
+- annuler un commit precis:
+    git revert  id_commentaire
+
+- pour revenir en arriere de terminale :
+   :wq 
+- suprimer tous les commits jusqu'a un commit precis
+   -> tous les commits apres ce commit seront suprime:
+      git reset id_commit
+   -> mais le dossier et fail rest le mmeme 
+
+- pour suprimer les commits apres un commits precis et revenir 
+  sur le meme etat de fail avec les meme donnes 
+      git reset id__commit --hard 
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+    
+           
+
+
+

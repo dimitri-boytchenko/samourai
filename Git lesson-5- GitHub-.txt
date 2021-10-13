@@ -1,0 +1,57 @@
+Git - lesson - 5 Git - et GitHub
+
+- Git :
+  Git est un logiciel de gestion de versions décentralisé. 
+- Git (произносится «гит»[7]) — распределённая система управления версиями.
+- GitHub - НЕКОЕ ОБЛАЧНОЕ ХРАНИЛИЩЕ - СЕРВЕР - веб сайт:
+  Github est une entreprise de développement logiciel et de service dont le siège est situé aux États-Unis. Github développe notamment la plateforme Github, l'éditeur de texte Atom ou encore le framework Electron.
+- Не следует путать с GitHub — веб-сайтом для размещения git-репозиториев и совместной разработки проектов.
+Не следует путать с GitLab — веб-сайтом для размещения git-репозиториев и совместной разработки проектов.
+
+- creer espace personel -> 
+  учетная запись -> reposetorie en GitHub :
+     https://github.com/
+
+- ensuit il faut creer notre repositorie :
+     new ou start new project 
+
+- conection au repositorie GitHub:
+ dans le terminal on met -> 
+    git remote add origin https://github.com/Dmytro-Milhuad/git_lesson.git
+gi
+- verifier la connection avec repositorie GitHub:
+  git remote
+
+- pour coppier en enregistrer les dossier de local Git a GitHub en distance :
+    git push -u origin master // origin - branche sur la quelle on vas mettre ,
+ master - > dossier quelle on vas mettre sur origin
+
+    git push -u origin main 
+
+- pour le marquage dans le file README.md :
+       mark down -> 
+       -> https://fr.wikipedia.org/wiki/Markdown
+- pour cloner le projet entier :
+        git clone url_repositoria
+        git clone https://github.com/Dmytro--Milhuad/git_lesson.git
+
+- pour telecharger les mise a jour de GitHub ->
+  saulement les mise a jour de file et de projet entier:
+        git pull 
+// il faut etre dans le dossier et il faut etre connecte au GitHub : git remote - pour verifier la connection 
+
+-- commande ruse :
+   gitk --all&
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+ 
