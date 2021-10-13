@@ -1,0 +1,16 @@
+.header{
+   grid-area: h;
+   background-color: green;
+   }
+   .header img{
+      padding: 5px;
+      width: 50px;
+      border-radius: 15%;
+      vertical-align: auto;
+      margin-top: 8px;
+      margin-right: 10px;
+      margin-left: 10px;
+      background-color: red;
+   }
+
+  

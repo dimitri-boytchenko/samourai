@@ -1,0 +1,14 @@
+
+.content>img{
+   width: 30%;
+   padding: 10px;
+   background-color: purple;
+}
+
+
+.item{
+   color: yellow;
+}
+.item.active{
+   color:green;
+}
